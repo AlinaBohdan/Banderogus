@@ -1,0 +1,331 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.main {
+    
+    background: linear-gradient(180deg, #FF8E3D 0%, rgba(217, 217, 217, 0) 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    
+    margin-top: 32px;
+    margin-bottom: 56px;
+    display: flex;
+    position: absolute;
+    left: 0
+    top: 0
+}
+
+.logo {
+    margin-left: 18px;
+}
+
+.banderogus {
+
+    background: white;
+    padding: 35px 39px 56px 36px;
+    align-self: center;
+}
+
+.banderogus_title {
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #EA1313 0%, rgba(153, 13, 13, 0.996562) 34.38%, rgba(0, 0, 0, 0.99) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 70px;
+
+
+}
+
+.banderogus_hi {
+
+    color: #005BBB;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 21px;
+}
+
+.banderogus_fly {
+
+    color: #FFD500;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    margin-bottom: 52px;
+
+}
+
+.banderogus_description {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 56px;
+
+}
+
+.clicker {
+    background: #ED5E00;
+    border-radius: 30px;
+    padding: 17px 26px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 24px;
+    color: white;
+    margin-top: 37px;
+    
+}
+
+.conteiners {
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogus-image {
+
+    align-self: flex-end;
+}
+
+.page2 {
+    background: linear-gradient(180deg, rgba(255, 142, 61, 0) 0%, #FF8E3D 99.64%);
+    padding: 20px 0 52px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 24px;
+    color: #000000;
+    margin: 44px 0 26px 0;
+}
+
+.description {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 875px;
+    color: #000000
+}
+
+.facts {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.fact {
+    width: 30%;
+}
+
+.fact-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    margin: 14px 0 28px 0;
+    color: #000000;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.victory-background {
+
+    width: 1170px;
+    background: radial-gradient(100% 100% at 50% 0%, #FF8E3D 0%, rgba(246, 161, 99, 0.755208) 29.91%, rgba(217, 217, 217, 0) 100%);
+    padding: 30px 70px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory {
+    display: flex;
+    justify-content: center;
+}
+
+.victory-title {
+
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 24px;
+    color: #000000;
+    margin: 26px 0;
+}
+
+.victory-dscr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    width: 875px;
+}
+
+.modal-backgraund {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(75, 36, 8, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.modal-form-container {
+
+    background: #FFFFFF;
+    padding: 49px 52px 51px 52px;
+    position: relative;
+}
+
+.modal-form-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+
+    display: flex;
+    align-items: center;
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #EA1313 0%, rgba(0, 0, 0, 0.99) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 21px 0;
+}
+
+.modal-form-dscr {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.modal-form-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.modal-form-name {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.modal-form-input {
+
+    border: 5px solid;
+    border-image: 
+     linear-gradient(var(--color-bg), var(--color-bg)) padding-box, 
+     linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    padding: 0 6px;
+}
+
+.modal-form-button {
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #EA1313 0%, rgba(0, 0, 0, 0.99) 100%);
+    border-radius: 30px;
+    padding: 17px 26px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 24px;
+    color: white;
+    margin-top: 35px;
+    
+}
+.close-btn {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    font-size: 25px;
+    color: #000000;
+    cursor: pointer;
+    background: none;
+
+}
+
+.modal-dscr {
+    margin-bottom: 0;
+}
+.modal-active {
+
+    opacity: 1;
+    pointer-events: all;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
